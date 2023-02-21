@@ -70,3 +70,25 @@ class User {
     return "Name ${name}, Age : ${age}";
   }
 }
+
+class Restaurant
+{
+  late String imageUrl;
+  late String name;
+  late String address;
+  late List<Category> categorys;
+  late String sale;
+  late num openTime;
+  late num closeTime;
+}
+
+enum Category {
+  restaurant("Nha Hang"),
+  birthday("Sinh Nhat"),
+  family("Gia Dinh"),
+  group("Nhom"),
+  buffet("Tu Chon");
+
+  const Category(this.text);
+  final String text;
+}

@@ -15,7 +15,6 @@ class Restaurant {
   late String overView;
   late double distance;
 
-
   Restaurant(this.name, this.address, this.categorys, this.openTimeMode,
       this.endTimeOrder, this.preferential, this.overView, this.distance);
 
@@ -63,7 +62,7 @@ class Restaurant {
           OpenTimeMode.breakfast,
           DateTime(0, 0, 0, 11, 0),
           "Giảm 20 %",
-          "https://hoangyenbuffet.com/wp-content/uploads/2015/01/hoangyenbuffet.jpg",
+          "https://lh5.googleusercontent.com/p/AF1QipN5mQ3WM1ajPUlEj9SdOpbPQJelFj7lsr0HJzdh=w114-h114-n-k-no",
           10),
         Restaurant(
             "Chuỗi nhà hàng Phố 79",
@@ -105,7 +104,7 @@ class Restaurant {
   }
 
   String InitData(int index) {
-    var result = "${categorys[index].name}";
+    var result = categorys[index].name;
     print("${result}");
     return result;
   }

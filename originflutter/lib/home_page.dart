@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
                                   constraints: BoxConstraints.expand(),
                                   color: Colors.red,
                                   child: FittedBox(
-                                      fit: BoxFit.fitWidth,
+                                      fit: BoxFit.fill,
                                       child: Image.network(item.overView)),
                                 ),
                                 Visibility(

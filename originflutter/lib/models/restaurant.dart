@@ -63,7 +63,7 @@ class Restaurant {
           OpenTimeMode.breakfast,
           DateTime(0, 0, 0, 11, 0),
           "Giảm 20 %",
-          "https://lh5.googleusercontent.com/p/AF1QipN5mQ3WM1ajPUlEj9SdOpbPQJelFj7lsr0HJzdh=w114-h114-n-k-no",
+          "https://hoangyenbuffet.com/wp-content/uploads/2015/01/hoangyenbuffet.jpg",
           10),
         Restaurant(
             "Chuỗi nhà hàng Phố 79",
@@ -88,7 +88,7 @@ class Restaurant {
             "P. 7, Quận 3, TP. HCM. Giá bình quân đầu người 50.000đ - 165.000đ.",
             [RestaurantCategory.restaurant, RestaurantCategory.birthday],
             OpenTimeMode.all,
-            DateTime(0, 0, 0, 17, 0),
+            DateTime(0, 0, 0, 21, 0),
             "Giảm 90 %",
             "https://lh5.googleusercontent.com/p/AF1QipN5mQ3WM1ajPUlEj9SdOpbPQJelFj7lsr0HJzdh=w114-h114-n-k-no",
             10),

@@ -1,16 +1,6 @@
 # originflutter
 
-A new Flutter project.
+### Guidelines
+1. Tạo class để chứa các tên image, không hardcode trực tiếp.
+2. Các size marign, padding nên khai báo thành biến để tái sử dụng
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
